@@ -591,7 +591,7 @@ res = model.predict(X_test)
 $$precision=\frac{true\ positive}{true\ positive\ +\ false\ positive}$$
 </p>
 <p>Recall actually calculates how many of the Actual Positives our model capture through labeling it as Positive.
-$$precision=\frac{true\ positive}{true\ positive\ +\ false\ negative}$$
+$$recall=\frac{true\ positive}{true\ positive\ +\ false\ negative}$$
 </p>
 <p>
     These metrics are combined to calculate the f1-score. 
